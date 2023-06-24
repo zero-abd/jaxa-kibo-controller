@@ -56,7 +56,6 @@ public class YourService extends KiboRpcService {
         int current_point = 0;
         boolean qr_ready = false;
         String final_message = "I_AM_HERE";
-        int qr_wait_time = 22;
 
 
         while(true){
