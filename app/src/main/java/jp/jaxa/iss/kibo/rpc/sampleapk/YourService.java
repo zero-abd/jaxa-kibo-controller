@@ -118,6 +118,7 @@ public class YourService extends KiboRpcService {
                         temp_active_points = api.getActiveTargets();
                         if (temp_active_points.contains(current_point)) {
                             if (current_point == 1) {
+                                Log.i(TAG, "Initiating sp 1");
                                 Point case_sp1 = new Point(11.2036, -9.92284, 5.4748);
                                 Point point_sp1 = new Point(11.2036, -9.72284, 5.4748);
                                 Quaternion quaternion_sp1 = new Quaternion(0f, 0f, -0.707f, 0.707f);
@@ -125,16 +126,18 @@ public class YourService extends KiboRpcService {
                                 shootLaser(current_point);
                                 moveToPoint(point_sp1, quaternion_sp1);
                             } else if (current_point == 2) {
+                                Log.i(TAG, "Initiating sp 2");
                                 Point case_sp2 = new Point(10.452, -9.1809, 4.48);
                                 Point point_sp2 = new Point(10.452, -9.1809, 4.67);
-                                Quaternion quaternion_sp2 = new Quaternion(0f, 0f, -0.707f, 0.707f);
+                                Quaternion quaternion_sp2 = new Quaternion(0.5f, 0.5f, -0.5f, 0.5f);
                                 moveToPoint(case_sp2, quaternion_sp2);
                                 shootLaser(current_point);
                                 moveToPoint(point_sp2, quaternion_sp2);
                             } else if (current_point == 3) {
+                                Log.i(TAG, "Initiating sp 3");
                                 Point case_sp3 = new Point(10.72, -7.767, 4.48);
                                 Point point_sp3 = new Point(10.72, -7.767, 4.73);
-                                Quaternion quaternion_sp3 = new Quaternion(0f, 0f, -0.707f, 0.707f);
+                                Quaternion quaternion_sp3 = new Quaternion(0f, 0.707f, 0f, 0.707f);
                                 moveToPoint(case_sp3, quaternion_sp3);
                                 shootLaser(current_point);
                                 moveToPoint(point_sp3, quaternion_sp3);
