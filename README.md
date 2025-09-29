@@ -24,7 +24,7 @@ This repository contains the codebase for controlling NASA's Astrobee free-flyin
 
 Quaternions are fundamental to our robot's movement system, providing mathematically robust 3D rotation without gimbal lock:
 
-![Quaternion Rotation Visualization](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Quaternion_rotation_sequences.gif/400px-Quaternion_rotation_sequences.gif)
+![Quaternion Rotation Visualization](https://miro.medium.com/v2/resize:fit:640/format:webp/1*XYvjvRKmPAf1PKCzeRoRwA.gif)
 
 *Quaternion rotation sequence showing smooth interpolation between orientations in 3D space*
 
