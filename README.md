@@ -1,5 +1,17 @@
 # JAXA Kibo Robot Programming Challenge - Astrobee Controller
 
+## 🎥 Project Demo Video
+
+[![Watch our Kibo-RPC Demo](https://img.youtube.com/vi/DBKVAojl0GQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=DBKVAojl0GQ&t=1364s)
+
+*Click the image above to watch our project demonstration in the International Space Station (ISS) starting at 22:44*
+
+## 🏅 Achievement
+
+**🎉 5th Crew Award Winner** - Competing against **1,685 students** from **421 teams** around the globe in the Kibo Robot Programming Challenge Finals!
+
+---
+
 This repository contains the codebase for controlling NASA's Astrobee free-flying robot in the International Space Station (ISS), developed for participation in the **Kibo Robot Programming Challenge (Kibo-RPC) Finals**. The project demonstrates advanced robotics programming using Java, Gradle, TensorFlow, LiteRT, ZXing, and Docker.
 
 ## 🚀 Project Overview
@@ -250,6 +262,12 @@ The robot executes three main phases:
 3. **Optimize** model performance for real ISS conditions
 4. **Prepare contingency plans** for various failure scenarios
 5. **Document** all code thoroughly for mission review
+
+## 👥 Team Paragon
+
+![Team Paragon](team_paragon.jpg)
+
+*Team Paragon - Dedicated to advancing space robotics through innovative programming solutions*
 
 ## 📚 References and Resources
 
